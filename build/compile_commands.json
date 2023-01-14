@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/workspaces/hello-world/build",
-  "command": "/usr/bin/c++ -g -o CMakeFiles/test-project.dir/main.cpp.o -c /workspaces/hello-world/test-project/main.cpp",
-  "file": "/workspaces/hello-world/test-project/main.cpp"
-}
-]
