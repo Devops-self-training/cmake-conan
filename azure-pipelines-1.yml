@@ -30,6 +30,8 @@ jobs:
           pip install --user $(conan-pkg)
           pip install --user $(cpt-pkg) $(bpt-pkg)
           conan user
-          python build.py
+          mkdir build
+          cd build
+          conan install ..
         displayName: conan create package
  
